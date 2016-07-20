@@ -1,6 +1,6 @@
 body {
         font-family: monospace;
-        padding: 120px 0; 
+        padding: 100px 0; 
         color: #000000;
         background-color: indianred;
 }
@@ -11,7 +11,7 @@ body {
         box-sizing: border-box;
         width: 50%;
         max-width 550px;
-        margin: 0 auto;
+        margin: auto;
         padding: 80px 75px;
         text-align: center;
         border-radius: 75px;
@@ -70,6 +70,7 @@ body {
         margin-top: 45px;
         margin-bottom: -150px;
         margin-left: -40px;
+    
 }
 
 .socials li {
@@ -79,16 +80,13 @@ body {
 .social-image {
         display: block;
         width: 50px;
-        margin-right: 15px;
-        -webkit-transition: -webkit-transform .2s ease-in;
-                transition: -webkit-transform .2s ease-in;
-                transition:         transform .2s ease-in;
-                transition:         transform .2s ease-in;
+        margin-right: 45px;
+
 }
 
 .social-image:hover {
-        -webkit-transform: scale (1.1);
-                transform: scale (1.1);
+        width: 75px;
+        height: 75px;
 }
 
 .social-image img {
@@ -96,6 +94,6 @@ body {
 }
 
 li { 
-        font-size: 16px;
         list-style: none;
+        font-size: 16px;
 }
