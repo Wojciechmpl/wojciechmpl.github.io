@@ -97,5 +97,6 @@ body {
 
 li { 
         list-style: circle filled;
+        text-align: center;
         font-size: 16px;
 }
