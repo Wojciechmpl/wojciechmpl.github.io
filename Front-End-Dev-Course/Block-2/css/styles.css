@@ -1,8 +1,8 @@
 body {
-        font-family: monospace;
+        font-family: sans-serif;
         padding: 100px 0; 
-        color: #000000;
-        background-color: indianred;
+        color: black;
+        background-color: lightcoral;
 }
 
 .main-block {
@@ -32,20 +32,23 @@ body {
         background-size: cover;    
 }
 
+.avatar-picture:hover  {
+        width: 220px;
+        transition: width 1.5s
+}
 .name-header {
         font-size: 40px;
         font-weight: 600;
         line-height: 1.5;
         margin: -25px 0 30px;
-        color: red;
 }
 
 .sub-header {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 600;
         line-height: 1.5;
         margin: -25px 0 25px ;
-        color: blue;
+        
 }
 
 .full-info {
@@ -53,40 +56,37 @@ body {
         margin:0 ;
 }
 
+.info-header {
+        font-size: 18px; 
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 15px 0 5px;
+        text-align: center;
+}
+
 .list-info { 
         font-size: 16px;
         margin-left: 0;
-        
+        margin-left: -40px;
 }
 
-.info-header {
-        font-size: 16px; 
-        font-weight: 900;
-        line-height: 1.5;
-        margin: 15px 0 5px;
-}
 
 .socials {
-        margin-top: 45px;
+        margin-top: 10px;
         margin-bottom: -150px;
-        margin-left: -40px;
-    
+        margin-left: 650px;
+        text-align: center;
 }
 
 .socials li {
         display: inline-block;
+        width: 35px;    
 }
 
-.social-image {
-        display: block;
-        width: 50px;
-        margin-right: 45px;
-
-}
-
-.social-image:hover {
-        width: 75px;
-        height: 75px;
+.social-image img:hover  {
+        width: 35px;
+        transition: transform 0.4s;
+        transform: scale(1.4);
 }
 
 .social-image img {
